@@ -2,7 +2,6 @@ body {
     margin: 0px;
     position: relative;
     font-family: 'Vidaloka', serif;
-    /* font-family: 'Playfair Display SC', serif; */
 }
 
 .background {
@@ -23,7 +22,6 @@ body {
     width: 100%;
     height: 11vh;
     background-color: rgba(0, 0, 0, 0.712);
-    /* border-bottom: 3px solid rgba(0, 0, 0, 0.459); */
     position: fixed;
     top: 0;
     display: flex;
@@ -38,12 +36,6 @@ body {
     margin: 1.5rem;
     text-decoration: none;
 }
-
-/* @media(max-width: 1974px) {
-    .header a {
-        margin-right: 3.5rem;
-    }
-} */
 
 .header a:hover {
     transform: scale(1.10);
@@ -95,8 +87,6 @@ body {
 }
 
 .flex-icons {
-    /* display: flex; */
-    /* justify-content: flex-start; */
     width: 100%;
 }
 
@@ -304,6 +294,8 @@ body {
     height: 10rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    z-index: 2
 }
 
 .my-projects-title line {
@@ -320,10 +312,12 @@ body {
 }
 
 .project-content {
-    width: 54.5rem;
+    width: 54rem;
     height: 33rem;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(245, 245, 245);
+    border-radius: 2px;
     border: 3px solid rgba(0, 0, 0, 0.459);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.459);
     z-index: 3;
     display: flex;
 }
@@ -338,7 +332,7 @@ body {
 }
 
 .project-left button {
-    background-color: rgb(246, 255, 113); 
+    background-color: #ff715b; 
     border-radius: 5px;
     margin-top: .6rem;
     border: none;
@@ -371,20 +365,19 @@ body {
     height: 230px;
 }
 
-/* .group-car:hover {
+.group-car:hover {
     animation: slider 15s infinite;
-    cursor: progress;
-} */
+}
 
 @keyframes slider {
-    0%, 10%, 70% { background-image: url('./dlicons/react.svg')}
-    40% { background-image: url('./dlicons/js.svg')}
-    60% { background-image: url('./dlicons/postgresql.svg')}
+    0% { background-image: url('./images/tegdub1.png')}
+    40% { background-image: url('./images/tegdub2.png')}
+    60% { background-image: url('./images/tegdub3.png')}
 }
 
 .project-right {
     width: 27rem;
-    height: 32.5rem;
+    height: 33rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -395,7 +388,7 @@ body {
 }
 
 .project-right button {
-    background-color: rgb(246, 255, 113); 
+    background-color: #ff715b; 
     border-radius: 5px;
     margin-top: .6rem;
     border: none;
@@ -414,10 +407,14 @@ body {
     height: 230px;
 }
 
+.personal-car:hover {
+    animation: slider2 20s infinite;
+}
+
 @keyframes slider2 {
-    0%, 10%, 70% { background-image: url('./dlicons/github.svg')}
-    40% { background-image: url('./dlicons/heroku.svg')}
-    60% { background-image: url('./dlicons/css.svg')}
+    0% { background-image: url('./images/shiftradr1.png')}
+    40% { background-image: url('./images/shiftradr2.png')}
+    66% { background-image: url('./images/shiftradr3.png')}
 }
 
 
@@ -425,43 +422,53 @@ body {
 #contact {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     position: relative;
     width: 100%;
     height: 100vh;
 }
 
-#contact line {
-    width: 100%;
-    height: 3px;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.459);
-}
 
 .contact-title {
-    width: 20rem;
+    /* width: 20rem;
     height: 10rem;
-    margin-left: 3rem;
-    background-color: rgb(118, 233, 108);
-    box-shadow: 2px 2px 2px 2px rgb(199, 197, 197);
-    border: 3px solid rgba(0, 0, 0, 0.459);
+    margin-left: 3rem; */
+    /* background-color: rgb(118, 233, 108); */
+    /* box-shadow: 2px 2px 2px 2px rgb(199, 197, 197); */
+    /* border: 3px solid rgba(0, 0, 0, 0.459); */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* z-index: 3; */
+    width: 25rem;
+    height: 10rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    z-index: 3;
+    z-index: 2
+}
+
+.contact-title line {
+    width: 10%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #76a9af;
+    position: absolute;
 }
 
 .contact-title h1 {
-    font-weight: 500;
-    margin: 0px;
+    font-weight: 900;
+    font-size: 3rem;
 }
 
 .contact-content {
     width: 50rem;
     height: 15rem;
-    background-color: rgb(204, 204, 204);
     border: 3px solid rgba(0, 0, 0, 0.459);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.459);
+    background-color: rgba(189, 183, 183, 0.733);
     z-index: 3;
     display: flex;
     flex-direction: column;
