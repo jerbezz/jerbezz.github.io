@@ -38,13 +38,12 @@ body {
     border-bottom: 1px solid rgb(8, 8, 8);
     line-height: 2rem;
     transition: .2s;
-    /* color: rgb(94, 160, 245); */
 }
 
 .header a:focus {
     transform: scale(1);
 }
-/* Circle that has my name, web developer, and social media icons */
+/* my name, web developer, and social media icons */
 .name {
     width: 25rem;
     height: 25rem;
@@ -57,6 +56,7 @@ body {
     align-items: center;
     text-align: left;
 }
+
 
 .me {
     width: 100%;
