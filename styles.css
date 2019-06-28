@@ -255,7 +255,7 @@ body {
 /* project title and group and personal project */
 #projects {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     background-color: rgba(189, 183, 183, 0.733);
     display: flex;
     flex-direction: column;
@@ -288,7 +288,7 @@ body {
 
 .project-content {
     width: 54rem;
-    height: 33rem;
+    height: 37rem;
     background-color: rgb(245, 245, 245);
     border-radius: 2px;
     border: 3px solid rgba(0, 0, 0, 0.459);
@@ -299,7 +299,7 @@ body {
 
 .project-left {
     width: 27rem;
-    height: 33rem;
+    height: 37rem;
     border-right: 4px solid rgba(0, 0, 0, 0.459);
     display: flex;
     flex-direction: column;
@@ -318,18 +318,37 @@ body {
     cursor: pointer;
 }
 
-.project-left h3 {
+.project-left h2 {
     border-bottom: 2px solid black;
 }
 
 .project-desc {
-    padding: 1rem;
+    padding: 1rem 1rem .25rem 1rem;
+    margin: 1rem 1rem .25rem 1rem;
     text-indent: .8rem;
+    font-size: .9rem;
+}
+
+.project-desc1 {
+    padding: .25rem 1rem 0rem 1rem;
+    margin: .25rem 1rem 0rem 1rem;
+    font-size: .9rem;
+}
+
+.project-desc2 {
+    padding: .25rem 1rem 1rem 1rem;
+    margin: .25rem 1rem .25rem 1rem;
     font-size: .9rem;
 }
 
 .project-github {
     font-size: .8rem;
+    margin-bottom: 15px;
+}
+
+.project-github2 {
+    font-size: .8rem;
+    padding-bottom: .5rem;
 }
 
 .group-car {
@@ -352,7 +371,7 @@ body {
 
 .project-right {
     width: 27rem;
-    height: 33rem;
+    height: 37rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -370,7 +389,7 @@ body {
     border: 2px solid rgb(0, 0, 0);
 }
 
-.project-right h3 {
+.project-right h2 {
     border-bottom: 2px solid black;
 }
 
