@@ -323,21 +323,19 @@ body {
 }
 
 .project-desc {
-    padding: 1rem 1rem .25rem 1rem;
-    margin: 1rem 1rem .25rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     text-indent: .8rem;
     font-size: .9rem;
 }
 
 .project-desc1 {
-    padding: .25rem 1rem 0rem 1rem;
     margin: .25rem 1rem 0rem 1rem;
     font-size: .9rem;
 }
 
 .project-desc2 {
-    padding: .25rem 1rem 1rem 1rem;
-    margin: .25rem 1rem .25rem 1rem;
+    margin: .25rem 1rem 1rem 1rem;
     font-size: .9rem;
 }
 
